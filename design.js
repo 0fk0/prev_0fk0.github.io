@@ -92,8 +92,6 @@ setInterval(function() {
     for (var e in elements)
     elements[e].draw(ctx, time);
     ctx.font = '150px cursive';
+    ctx.globalAlpha = 0.5;
     ctx.textAlign = 'center';
-    var x = (canvas.width / 2);
-	var y = (canvas.height / 2) - 100;
-    ctx.fillText('fk', x, y);
 }, 10);
