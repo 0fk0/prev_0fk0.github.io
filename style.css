@@ -70,6 +70,7 @@ ul {
     padding: 5px 10px;
     margin: 5px 2px;
     opacity: 0.8;
+    text-align: center;
 }
 
 .btn:hover {
@@ -113,6 +114,15 @@ img {
 @media (max-width : 1000px){
     .header h1{
         font-size : 85px;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .profile {
+        padding: 0px;
+        margin: 0px 10px;
+        position: relative;
+        top: 25px;
     }
 
     .info {
@@ -122,38 +132,65 @@ img {
 
     .reference {
         width : 100%;
-        float : left;
-    }
-
-    .skill {
-        width : 100px;
-        float : left;
     }
 
     .btn {
-        width : 45%;
+        width : 47%;
+        text-align: center;
+        opacity : 1;
     }
 
     .skill {
-        display : inline-block;
+        width: 100%;
     }
 }
 
-@media (max-width : 670px){
+@media (max-width : 375px){
     .header h1{
-        font-size : 70px;
+        font-size : 50px;
+        padding: 0px;
+        margin: 0px;
     }
 
-    .info {
-        font-size : 30px;
+    .profile {
+        padding: 0px;
+        margin: 0px;
+        position: relative;
+        top: 25px;
     }
 
-    i {
-        display : inline-block;
+    .info ul{
+        font-size : 20px;
+    }
+
+    .info h3 {
+        text-align: center;
+    }
+
+    .info2 {
+        text-align: center;
+    }
+
+    .reference {
+        width : 100%;
+    }
+
+    .reference h3 {
+        text-align: center;
     }
 
     .btn {
         width : 100%;
         margin: 5px 5px;
+        opacity : 1;
+    }
+
+    .skill h3 {
+        text-align: center;
+    }
+
+    .skill {
+        width: 100%;
+        text-align: center;
     }
 }
